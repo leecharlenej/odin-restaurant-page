@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav{
+  display:grid;
+  grid-template-columns: repeat(3, 150px);
+  justify-content: center;
+}
+
+button{
+  width: 100px;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 20px;;
+}
+
+h1, h3 {
+  text-align: center;
+  justify-self: center;
+}
+
+#content {
+  border: 1px solid black;
+  display:grid;
+  justify-content: center;
+  width:800px;
+
+  margin: 0 auto;
+}
+
+.imagePasta {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.imageMenu {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height:250px;
+
+}
+
+.description {
+  width: 500px;
+}
+
+.ul-menu{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding:0px;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.div-menu{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+
+
+  
